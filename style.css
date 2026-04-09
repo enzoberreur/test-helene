@@ -599,13 +599,21 @@ h1, h2, h3 {
     transition: transform 0.3s;
 }
 
+.story-left {
+    transform: rotate(-5deg) translateY(20px);
+}
+
+.story-right {
+    transform: rotate(4deg) translateY(30px);
+}
+
 .story-card:hover {
     z-index: 5;
 }
 
 .story-card-center {
     z-index: 3;
-    transform: scale(1.05) !important;
+    transform: scale(1.05);
 }
 
 .story-card img {
